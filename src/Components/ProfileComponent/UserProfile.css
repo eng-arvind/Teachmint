@@ -1,0 +1,100 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.user-details {
+    padding: 10px;
+    gap: 20px
+}
+
+.user-details h4 {
+    overflow-wrap: anywhere;
+}
+.user-post {
+    margin-top: 20px;
+}
+
+.post-details {
+    padding: 10px;
+    display: flow;
+}
+
+.country-dropdown {
+    display: flex;
+}
+
+h5 {
+    color: white;
+    background-color: rgb(140, 199, 241);
+    text-align: center;
+}
+
+button {
+    outline: none;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.content-model {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(189, 189, 189,0.9);
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    position: fixed;
+    vertical-align: middle;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 300px; 
+}
+
+.content .card {
+    padding: 20px;
+}
+
+.country-clock {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.time-data {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    max-width: fit-content;
+}
+
+.time-data h6 {
+    margin-bottom: 0;
+}
+.clock-data {
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width: 535px){
+    .country-clock {
+        flex-direction: column;
+        align-items: end;
+    }
+    
+    
+}

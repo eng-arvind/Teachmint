@@ -1,0 +1,17 @@
+.card {
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.user-card {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(160, 184, 216);
+    padding: 10px;
+}
+
+.page-name {
+    text-align: center;
+    color: blue;
+    padding: 20px;
+} 
